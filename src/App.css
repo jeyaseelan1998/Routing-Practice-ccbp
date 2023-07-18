@@ -12,3 +12,14 @@ body {
 }
 
 /* Write your CSS code here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  width: 80vw;
+  margin: 45px auto;
+  padding: 25px;
+  border: 2px solid #551e53;
+  border-radius: 16px;
+}

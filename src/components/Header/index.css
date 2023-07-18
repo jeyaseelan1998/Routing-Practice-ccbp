@@ -1,1 +1,31 @@
 /* Write your CSS code here */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-family: Roboto;
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-left: 15px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #000;
+}
